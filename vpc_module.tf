@@ -6,6 +6,7 @@ data "aws_availability_zones" "available" {
 ## Comment for VPC Module ###
 ## Added in branch development
 # Create VPC Terraform Module
+#Created a comment for deployment branch test
 module "vpc" {
   source  = "terraform-aws-modules/vpc/aws"
   version = "3.11.0"
